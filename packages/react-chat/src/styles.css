@@ -41,7 +41,10 @@
 
 /* .vfrc-chat {} */
 
-/* .vfrc-chat--dialog {} */
+.vfrc-chat--dialog {
+  direction: rtl !important;
+  text-align: right !important;
+}
 
 /* .vfrc-chat--spacer {} */
 
@@ -49,7 +52,10 @@
 
 /* .vfrc-chat--status {} */
 
-/* .vfrc-message {} */
+.vfrc-message {
+  direction: rtl !important;
+  text-align: right !important;
+}
 
 /* .vfrc-timestamp {} */
 
